@@ -21,6 +21,9 @@ Pick three of these questions, including at least one marked **[Code]**.
       detects blobs in various sizes due to change
       in \sigma(a scaling parameter)
 * Explain the technique behind Hough Transforms. Where would this type of feature extraction be useful?
+
+
+
 * **[Code]** What is the RANSAC algorithm? Code the steps that this algorithm takes to help deal with outliers in data
     . How can we use this algorithm for computer vision?
         https://stackoverflow.com/questions/11237948/findhomography-getperspectivetransform-getaffinetransform
@@ -36,16 +39,24 @@ Pick three of these questions, including at least one marked **[Code]**.
      
 * How does an Extended Kalman Filter differ from a regular Kalman Filter? Provide an example of where an EKF would
      be necessary or an improvement, and detail why it would be needed in that situation.
+     
 * What is the difference between an Extended Kalman Filter and an Unscented Kalman Filter? In what situations
      would there be larger differences between the two approaches?
 * **[Code]** Explain the steps behind how an Extended Kalman Filter is implemented.
+
+
 * Have you worked with point clouds and/or the Point Cloud Library (PCL) before? If you’ve used PCL before, which
      modules of PCL did you use, and what application did you use it toward?
      
 * **[Code]** Describe how a particle filter works, where it is useful, and how it performs against similar algorithms
     . Code an example of how you update the weights of the particles between steps.
+    
+    
+    
 * Your perception subsystem has noticed an object in the path of your robot, but it has failed to determine what
      the object is. How would your perception subsystem further handle this situation?
+     
+     
 * **[Code]** What approach would you take if the various sensors you are using have different refresh rates?
     Apply kalman filter in sensor fusion.
     https://www.zhihu.com/question/46869663/answers/updated -> sequential or parallel using kalman filter
